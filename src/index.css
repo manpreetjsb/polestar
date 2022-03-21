@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#mui-2-helper-text,
+#mui-1-helper-text {
+  display: none;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border: 0;
+}
