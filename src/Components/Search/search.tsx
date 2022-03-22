@@ -22,7 +22,7 @@ interface Values {
   search: string
 }
 
-const init: any = []
+const init: IResult[] = []
 
 const Search: React.FC = () => {
   const [results, setResults] = useState<IResult[]>(init)
@@ -151,9 +151,9 @@ const Search: React.FC = () => {
               </TableHead>
 
               <TableBody>
-                {results.map((row: any) => (
+                {results.map((row: IResult) => (
                   <TableRow
-                    key={row.Title}
+                    key={row.title}
                     sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
                   >
                     <TableCell align='left'>
