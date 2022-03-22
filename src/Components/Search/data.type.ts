@@ -1,6 +1,6 @@
 export interface IResult {
   title: string
-  cover: string
-  author: string
-  year: string
+  cover_i: number
+  author_name: string[]
+  publish_year: number[]
 }
